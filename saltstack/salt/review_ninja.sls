@@ -1,9 +1,3 @@
-review_ninja_repo:
-  git.latest:
-    - name: https://github.com/reviewninja/review.ninja.git
-    - target: /home/vagrant/review.ninja
-    - user: vagrant
-
 grunt-cli:
   npm.installed
 

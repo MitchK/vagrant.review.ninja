@@ -6,6 +6,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder "saltstack/salt", "/srv/salt"
   config.vm.synced_folder ".", "/home/vagrant/salt/"
+  config.vm.synced_folder "../review.ninja", "/home/vagrant/review.ninja"
 
   config.vm.network :forwarded_port, host: 5000, guest: 5000
 
