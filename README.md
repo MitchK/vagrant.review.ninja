@@ -35,21 +35,21 @@ Install npm and bower dependencies
 	npm install
 	bower install
 
-Next copy the `env.example` file to `venv`. (This is where the configuration
+Next copy the `.env.example` file to `.env`. (This is where the configuration
 takes place)
 
-	cp env.example venv
+	cp .env.example .env
 
 You also need to [register an application on
 GitHub](https://github.com/settings/applications/new). The callback is
 http://localhost:5000/auth/github/callback, name and homepage you can fill out
 as you desire.
 
-And set the `GITHUB_CLIENT` and `GITHUB_SECRET` accordingly in the `venv` file.
+And set the `GITHUB_CLIENT` and `GITHUB_SECRET` accordingly in the `.env` file.
 
 If necessary you can set the other variables too, although only `MONGODB`,
 `GITHUB_CLIENT`, `GITHUB_SECRET` are required and unless you have a reason to
-then the `MONGODB` pre set in the `env.example` file is correct.
+then the `MONGODB` pre set in the `.env.example` file is correct.
 
 Start the application
 ---------------------
