@@ -42,7 +42,7 @@ takes place)
 
 You also need to [register an application on
 GitHub](https://github.com/settings/applications/new). The callback is
-http://localhost:5000/auth/github/callback, name and homepage you can fill out
+`http://localhost:5000/auth/github/callback`, name and homepage you can fill out
 as you desire.
 
 And set the `GITHUB_CLIENT` and `GITHUB_SECRET` accordingly in the `.env` file.
