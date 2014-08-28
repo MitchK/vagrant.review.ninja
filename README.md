@@ -51,6 +51,10 @@ If necessary you can set the other variables too, although only `MONGODB`,
 `GITHUB_CLIENT`, `GITHUB_SECRET` are required and unless you have a reason to
 then the `MONGODB` pre set in the `.env.example` file is correct.
 
+Then source the environment file,
+
+    . .env
+
 Start the application
 ---------------------
 
