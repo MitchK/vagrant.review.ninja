@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "puppetlabs/ubuntu-14.04-64-puppet"
 
   config.vm.synced_folder "saltstack/salt", "/srv/salt"
   config.vm.synced_folder ".", "/home/vagrant/salt/"
