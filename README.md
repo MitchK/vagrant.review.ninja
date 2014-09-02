@@ -53,17 +53,19 @@ then the `MONGODB` pre set in the `.env.example` file is correct.
 
 Then source the environment file,
 
-    . .env
+	source .env
 
-Start the application
----------------------
+Then to start the application run
 
-There is a grunt job that starts up the app and compiles the sass files
-whenever they are changed.
+	npm start
+	
+If you want to autorestart the server on file changes install `nodemon`
 
-	grunt serve
+	npm install nodemon
+	
+Then it can be started with
 
-> If you ever need to compile the sass files on demand just run `grunt sass`
+	nodemon app.js
 
 Contribute to this repo
 -----------------------
