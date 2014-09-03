@@ -10,8 +10,13 @@ Set up the environment
 You need to have [Virtualbox](https://www.virtualbox.org/) and
 [Vagrant](https://www.vagrantup.com/) installed.
 
-Once you have Virtualbox and Vagrant installed you can clone this repository
-and run
+Also ensure you cloned the [review.ninja](https://github.com/reviewninja/review.ninja/) repository into the same root as [vagrant.review.ninja](https://github.com/reviewninja/vagrant.review.ninja/) The result will be something like:
+
+    Projects/
+    ├─ review.ninja/
+    └─ vagrant.review.ninja/
+
+Once you have Virtualbox and Vagrant installed you can run the following command within the *vagrant.review.ninja* repository
 
 	vagrant up
 
