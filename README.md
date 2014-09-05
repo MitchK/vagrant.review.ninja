@@ -1,8 +1,8 @@
 Contribute to ReviewNinja
 =========================
 
-This is a vagrant box/salt provisioning to get you setup for developing on
-ReviewNinja as quickly as possible.
+This repository is thought to get to setup for developing on ReviewNinja
+as quickly as possible, with a combination of Vagrant and Salt.
 
 Set up the environment
 ----------------------
@@ -35,10 +35,9 @@ The app lies in `/home/vagrant/review.ninja` so `cd` into it.
 
 	cd ~/review.ninja
 
-Install npm and bower dependencies
+Install dependencies
 
 	npm install
-	bower install
 
 Next copy the `.env.example` file to `.env`. (This is where the configuration
 takes place)
@@ -76,7 +75,8 @@ Contribute to this repo
 -----------------------
 
 This could potentially become the resource users will install their ReviewNinja
-instance with. So any contributions, on customization are very welcome.
+instance with, especially the salt provisioning. So contributions and 
+customizations are very welcome.
 
 If you like any other provisioning provider better and can contribute your
 script, feel free to open an issue and we are happy to create a repository for
