@@ -1,6 +1,15 @@
+curl:
+  pkg.installed
+
+node_repo:
+  cmd:
+    - run
+    - name: curl -sL https://deb.nodesource.com/setup | sudo bash -
+    - user: vagrant
+    - require:
+      - pkg: curl
+
 nodejs:
-    pkgrepo.managed:
-        - ppa: chris-lea/node.js
-    pkg.installed:
-        - name: nodejs
-        - refresh: True
+  pkg.installed:
+    - require:
+      - cmd: node_repo

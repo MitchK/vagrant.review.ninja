@@ -4,8 +4,13 @@ grunt-cli:
 bower:
   npm.installed
 
-ruby-compass:
+ruby2.0:
   pkg.installed
+
+scss-lint:
+  gem.installed:
+  - require:
+    - pkg: ruby2.0
 
 mongodb_present:
   mongodb_user.present:
