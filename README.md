@@ -27,9 +27,9 @@ command within the *vagrant.review.ninja* repository
 
 	vagrant up
 
-If you have not already used the ubuntu/trusty64 image with vagrant then it
-will download it for you, spin up the machine and run
-[salt](http://www.saltstack.com/) provisioning.
+If you have not already used the puppetlabs/ubuntu-14.04-64-puppet image with
+vagrant then it will download it for you, spin up the machine and run
+[Salt](http://www.saltstack.com/) provisioning.
 
 > If anything fails (network failure, or any other cause) just run `vagrant
 > provision` and it will eventually get the machine into the correct state.
