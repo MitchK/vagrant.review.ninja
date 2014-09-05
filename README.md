@@ -1,8 +1,10 @@
 Contribute to ReviewNinja
 =========================
 
-This repository is thought to get to setup for developing on ReviewNinja
-as quickly as possible, with a combination of Vagrant and Salt.
+This repository is thought to get to setup for developing on ReviewNinja as
+quickly as possible, with a combination of
+[Virtualbox](https://www.virtualbox.org/) and
+[Salt](http://www.saltstack.com/).
 
 Set up the environment
 ----------------------
@@ -10,13 +12,18 @@ Set up the environment
 You need to have [Virtualbox](https://www.virtualbox.org/) and
 [Vagrant](https://www.vagrantup.com/) installed.
 
-Also ensure you cloned the [review.ninja](https://github.com/reviewninja/review.ninja/) repository into the same root as [vagrant.review.ninja](https://github.com/reviewninja/vagrant.review.ninja/) The result will be something like:
+Also ensure you cloned the
+[review.ninja](https://github.com/reviewninja/review.ninja/) repository into
+the same root as
+[vagrant.review.ninja](https://github.com/reviewninja/vagrant.review.ninja/)
+The result will be something like:
 
     Projects/
     ├─ review.ninja/
     └─ vagrant.review.ninja/
 
-Once you have Virtualbox and Vagrant installed you can run the following command within the *vagrant.review.ninja* repository
+Once you have Virtualbox and Vagrant installed you can run the following
+command within the *vagrant.review.ninja* repository
 
 	vagrant up
 
@@ -46,8 +53,8 @@ takes place)
 
 You also need to [register an application on
 GitHub](https://github.com/settings/applications/new). The callback is
-`http://localhost:5000/auth/github/callback`, name and homepage you can fill out
-as you desire.
+`http://localhost:5000/auth/github/callback`, name and homepage you can fill
+out as you desire.
 
 And set the `GITHUB_CLIENT` and `GITHUB_SECRET` accordingly in the `.env` file.
 
@@ -75,7 +82,7 @@ Contribute to this repo
 -----------------------
 
 This could potentially become the resource users will install their ReviewNinja
-instance with, especially the salt provisioning. So contributions and 
+instance with, especially the salt provisioning. So contributions and
 customizations are very welcome.
 
 If you like any other provisioning provider better and can contribute your
