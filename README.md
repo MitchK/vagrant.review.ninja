@@ -15,7 +15,7 @@ You need to have [Virtualbox](https://www.virtualbox.org/) and
 Also ensure you cloned the
 [review.ninja](https://github.com/reviewninja/review.ninja/) repository into
 the same root as
-[vagrant.review.ninja](https://github.com/reviewninja/vagrant.review.ninja/)
+[vagrant.review.ninja](https://github.com/reviewninja/vagrant.review.ninja/).
 The result will be something like:
 
     Projects/
