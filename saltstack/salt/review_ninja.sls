@@ -12,6 +12,16 @@ scss-lint:
   - require:
     - pkg: ruby2.0
 
+python-pip:
+  pkg.installed:
+    - require:
+      - gem: scss-lint
+
+pre-commit:
+  pip.installed:
+    - require:
+      - pkg: python-pip
+
 mongodb_present:
   mongodb_user.present:
     - name: reviewninja
