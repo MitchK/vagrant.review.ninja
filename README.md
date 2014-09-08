@@ -62,6 +62,9 @@ If necessary you can set the other variables too, although only `MONGODB`,
 `GITHUB_CLIENT`, `GITHUB_SECRET` are required and unless you have a reason to
 then the `MONGODB` pre set in the `.env.example` file is correct.
 
+> **Information** 
+> For further reading on the environment variables, go to https://github.com/reviewninja/review.ninja/blob/master/doc/installation.md#further-reading-on-environment-variables
+
 Then source the environment file,
 
 	source .env
